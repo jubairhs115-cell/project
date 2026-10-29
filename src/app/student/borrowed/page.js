@@ -169,7 +169,7 @@ export default function MyBorrowedBooksPage() {
                 <button
                   onClick={() => handleReturn(loan)}
                   disabled={returningId === loan._id}
-                  className="w-full sm:w-auto px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-bold shadow-xs transition inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                  className="w-full sm:w-auto px-5 py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-xl text-xs font-bold shadow-xs transition inline-flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
                 >
                   <RotateCcw className="w-4 h-4" />
                   {returningId === loan._id ? "Processing..." : "Return This Book"}

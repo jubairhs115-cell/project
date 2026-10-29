@@ -227,7 +227,7 @@ function AdminBorrowingsContent() {
                         <button
                           onClick={() => handleCounterReturn(b)}
                           disabled={returningId === b._id}
-                          className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold shadow-xs transition inline-flex items-center gap-1 cursor-pointer disabled:opacity-50"
+                          className="px-3 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-xs font-semibold shadow-xs transition inline-flex items-center gap-1 cursor-pointer disabled:opacity-50"
                         >
                           <RotateCcw className="w-3.5 h-3.5" />
                           {returningId === b._id ? "Processing..." : "Counter Return"}

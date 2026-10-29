@@ -111,7 +111,7 @@ export default function StudentDashboard() {
         </div>
         <Link
           href="/books"
-          className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-semibold shadow-xs transition"
+          className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded-xl text-sm font-bold shadow-xs transition"
         >
           <BookOpen className="w-4 h-4" /> Find Books to Borrow
         </Link>
@@ -241,7 +241,7 @@ export default function StudentDashboard() {
                   <button
                     onClick={() => handleReturn(loan)}
                     disabled={returningId === loan._id}
-                    className="w-full sm:w-auto px-4 py-2 bg-white border border-slate-300 hover:border-indigo-600 text-slate-700 hover:text-indigo-600 rounded-xl text-xs font-semibold shadow-2xs transition inline-flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50"
+                    className="w-full sm:w-auto px-4 py-2 bg-white border border-slate-300 hover:border-emerald-700 text-slate-700 hover:text-emerald-700 rounded-xl text-xs font-bold shadow-2xs transition inline-flex items-center justify-center gap-1.5 cursor-pointer disabled:opacity-50"
                   >
                     <RotateCcw className="w-3.5 h-3.5" />
                     {returningId === loan._id ? "Returning..." : "Return Book"}

@@ -47,7 +47,7 @@ export default function BookCard({ book, onBorrow, isBorrowing, user }) {
             />
           </div>
 
-          <h3 className="font-bold text-slate-900 text-lg leading-snug line-clamp-2 group-hover:text-indigo-600 transition">
+          <h3 className="font-bold text-slate-900 text-lg leading-snug line-clamp-2 group-hover:text-emerald-800 transition">
             <Link href={`/books/${book._id}`}>{book.title}</Link>
           </h3>
 
@@ -66,7 +66,7 @@ export default function BookCard({ book, onBorrow, isBorrowing, user }) {
         <div className="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
           <Link
             href={`/books/${book._id}`}
-            className="text-xs font-semibold text-slate-600 hover:text-indigo-600 transition"
+            className="text-xs font-semibold text-slate-600 hover:text-emerald-700 transition"
           >
             View Details →
           </Link>
@@ -77,7 +77,7 @@ export default function BookCard({ book, onBorrow, isBorrowing, user }) {
               disabled={!isAvailable || isBorrowing}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold inline-flex items-center gap-1.5 transition ${
                 isAvailable
-                  ? "bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs cursor-pointer"
+                  ? "bg-emerald-700 hover:bg-emerald-800 text-white shadow-xs cursor-pointer"
                   : "bg-slate-100 text-slate-400 cursor-not-allowed"
               }`}
             >
@@ -87,7 +87,7 @@ export default function BookCard({ book, onBorrow, isBorrowing, user }) {
           ) : !user ? (
             <Link
               href={`/login?redirect=/books/${book._id}`}
-              className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
+              className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200 transition"
             >
               Log in to Borrow
             </Link>

@@ -1,7 +1,11 @@
 {
   "library": {
-    "name": "IU Central Library",
-    "schedule": "Saturday – Thursday (8:00 AM – 5:00 PM), Friday Closed"
+    "name": "Khademul Haramain King Fahad Central Library",
+    "shortName": "IU Central Library",
+    "university": "Islamic University, Bangladesh",
+    "universityUrl": "https://www.iu.ac.bd",
+    "location": "Kushtia - Jhenaidah, Bangladesh",
+    "schedule": "Saturday – Thursday: 9:00 AM – 8:00 PM (Friday Closed)"
   },
   "borrowing": {
     "loanDays": 14,
@@ -30,4 +34,3 @@
     "dueSoonDays": 3
   }
 }
-

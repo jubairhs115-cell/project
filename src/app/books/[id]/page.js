@@ -148,7 +148,7 @@ function BookDetailsContent({ paramsPromise }) {
       )}
 
       <div className="bg-white rounded-3xl border border-slate-200/80 shadow-lg shadow-slate-200/50 overflow-hidden">
-        <div className="bg-gradient-to-r from-indigo-900 to-indigo-800 text-white p-8 sm:p-10 relative overflow-hidden">
+        <div className="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 text-white p-8 sm:p-10 relative overflow-hidden">
           <div className="relative z-10 space-y-3 max-w-2xl">
             <div className="flex items-center gap-3">
               <span className="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-white/20 backdrop-blur-xs">
@@ -164,7 +164,7 @@ function BookDetailsContent({ paramsPromise }) {
               {book.title}
             </h1>
 
-            <p className="text-indigo-200 text-lg font-medium">By {book.author}</p>
+            <p className="text-emerald-300 text-lg font-medium">By {book.author}</p>
           </div>
           <div className="absolute right-6 -bottom-6 w-40 h-40 rounded-full bg-white/10 blur-xl pointer-events-none" />
         </div>
@@ -238,7 +238,7 @@ function BookDetailsContent({ paramsPromise }) {
                       ? "bg-slate-100 text-slate-400 cursor-not-allowed shadow-none"
                       : !isAvailable
                       ? "bg-rose-100 text-rose-400 cursor-not-allowed shadow-none"
-                      : "bg-indigo-600 hover:bg-indigo-700 text-white"
+                      : "bg-emerald-700 hover:bg-emerald-800 text-white"
                   }`}
                 >
                   <BookmarkPlus className="w-4 h-4" />
@@ -253,7 +253,7 @@ function BookDetailsContent({ paramsPromise }) {
               ) : !user ? (
                 <Link
                   href={`/login?redirect=/books/${bookId}`}
-                  className="w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-sm bg-indigo-600 hover:bg-indigo-700 text-white inline-flex items-center justify-center gap-2 shadow-md transition"
+                  className="w-full sm:w-auto px-6 py-3 rounded-xl font-bold text-sm bg-emerald-700 hover:bg-emerald-800 text-white inline-flex items-center justify-center gap-2 shadow-md transition"
                 >
                   Log In to Borrow
                 </Link>

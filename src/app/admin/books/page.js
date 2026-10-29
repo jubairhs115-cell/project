@@ -168,7 +168,7 @@ export default function AdminBooksPage() {
         </div>
         <button
           onClick={openAddModal}
-          className="inline-flex items-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold shadow-xs transition cursor-pointer"
+          className="inline-flex items-center gap-2 px-4 py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-xl text-xs font-bold shadow-xs transition cursor-pointer"
         >
           <Plus className="w-4 h-4" /> Add New Book
         </button>
@@ -394,7 +394,7 @@ export default function AdminBooksPage() {
                 <button
                   type="submit"
                   disabled={saving}
-                  className="px-5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold shadow-xs transition disabled:opacity-50"
+                  className="px-5 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded-xl text-xs font-semibold shadow-xs transition disabled:opacity-50"
                 >
                   {saving ? "Saving..." : editingBook ? "Update Book" : "Create Book"}
                 </button>
