@@ -1,0 +1,32 @@
+{
+  "library": {
+    "name": "IU Central Library",
+    "contactEmail": "library@example.com"
+  },
+  "borrowing": {
+    "loanDays": 14,
+    "maxActiveBorrowsPerStudent": 3,
+    "blockBorrowWhenUnpaidFine": true
+  },
+  "fines": {
+    "currency": "BDT",
+    "perDay": 5,
+    "graceDays": 0,
+    "maxPerBook": 500
+  },
+  "books": {
+    "categories": [
+      "Computer Science",
+      "Mathematics",
+      "Physics",
+      "Literature",
+      "Islamic Studies",
+      "General"
+    ],
+    "pageSize": 12,
+    "lowStockThreshold": 1
+  },
+  "ui": {
+    "dueSoonDays": 3
+  }
+}
