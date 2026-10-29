@@ -128,7 +128,7 @@ export default function Navbar() {
 
             {user?.role === "admin" && (
               <>
-                <Link href="/admin/dashboard" className={navLinkClass("/admin/dashboard")}>
+                <Link href="/132006/admin" className={navLinkClass("/132006/admin")}>
                   <LayoutDashboard className="w-4 h-4 text-emerald-600" /> Dashboard
                 </Link>
                 <Link href="/admin/books" className={navLinkClass("/admin/books")}>
@@ -271,9 +271,9 @@ export default function Navbar() {
           {user?.role === "admin" && (
             <>
               <Link
-                href="/admin/dashboard"
+                href="/132006/admin"
                 onClick={() => setMobileMenuOpen(false)}
-                className={mobileNavLinkClass("/admin/dashboard")}
+                className={mobileNavLinkClass("/132006/admin")}
               >
                 <LayoutDashboard className="w-4 h-4 text-emerald-600" /> Admin Dashboard
               </Link>
