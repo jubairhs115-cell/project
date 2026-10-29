@@ -2,13 +2,23 @@
   "name": "library-system",
   "version": "0.1.0",
   "private": true,
+  "imports": {
+    "@/*": "./src/*"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "seed": "node scripts/seed.mjs",
     "lint": "eslint"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-auth": "^1.7.14",
+    "cookie": "^2.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.64.0",
+    "mongodb": "^7.7.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
