@@ -1,7 +1,7 @@
 {
   "library": {
     "name": "IU Central Library",
-    "contactEmail": "library@example.com"
+    "schedule": "Saturday – Thursday (8:00 AM – 5:00 PM), Friday Closed"
   },
   "borrowing": {
     "loanDays": 14,

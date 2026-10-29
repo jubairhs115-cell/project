@@ -89,7 +89,7 @@ export default function StudentFinesPage() {
             </p>
           </div>
           <p className="text-xs text-indigo-300 mt-4">
-            Payment counter: Central Library Circulation Desk • Mon - Fri (8:00 AM - 5:00 PM)
+            Payment counter: Central Library Circulation Desk • Sat – Thu (8:00 AM – 5:00 PM) • Closed on Friday
           </p>
         </div>
       </div>
