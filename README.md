@@ -1,6 +1,6 @@
- # 📚 Library Management System
+# 📚 Library Management System
 
-A modern web-based Library Management System built to simplify library operations, organize books, and manage borrowing and returning activities.
+A modern web-based Library Management System built with Next.js, React, MongoDB, and Better Auth. The application is designed to simplify library operations, manage books, and organize borrowing and returning activities.
 
 <p align="center">
   <a href="https://project-seven-pearl-59.vercel.app/">
@@ -15,28 +15,52 @@ A modern web-based Library Management System built to simplify library operation
 
 ## 📖 About The Project
 
-The Library Management System is a web application designed to make library activities easier and more organized.
+The Library Management System is a web application designed to make library activities easier, faster, and more organized.
 
-It provides a digital platform for managing library resources and handling book-related operations through a modern user interface.
+It provides a digital platform where users can explore library books and manage book-related activities. The system is built with a modern frontend, database integration, and authentication functionality.
 
-The project is developed using Next.js, React, MongoDB, and other modern web technologies.
+## ✨ Key Features
 
-## ✨ Technologies Used
+### 🔐 Authentication & User Management
+- User registration and login.
+- Secure authentication using Better Auth.
+- User session management.
+- User account access.
 
-### 🎨 Frontend Development
+### 📚 Book Management
+- Browse available library books.
+- View book details.
+- Search for books.
+- Manage book information.
+
+### 📖 Borrowing & Returning
+- Borrow available books.
+- Track borrowed books.
+- Manage book return operations.
+- Monitor book availability.
+
+### 🎨 User Interface
+- Responsive user interface.
+- Modern design using Tailwind CSS.
+- Reusable components with React and HeroUI.
+- Navigation between application pages.
+
+## 🛠️ Technologies Used
+
+### Frontend Development
 - Next.js
 - React
 - JavaScript (JSX)
 - Tailwind CSS
 - HeroUI
 
-### 🔐 Authentication
+### Authentication
 - Better Auth
 
-### 🗄️ Database
+### Database
 - MongoDB
 
-### 🛠️ Tools & Platforms
+### Tools & Platforms
 - Git
 - GitHub
 - Visual Studio Code
@@ -76,11 +100,19 @@ npm install
 
 **4. Configure environment variables**
 
-Create a `.env.local` file in the root directory and add the environment variables required by the project.
+Create a `.env.local` file in the root directory and configure the required environment variables.
 
-Do not commit your actual database credentials, authentication secrets, or API keys to GitHub.
+For example, your project may require:
 
-**5. Run the development server**
+```env
+MONGODB_URI=your_mongodb_connection_string
+BETTER_AUTH_SECRET=your_auth_secret
+BETTER_AUTH_URL=http://localhost:3000
+```
+
+Use the exact variable names required by your application. Never publish real credentials, secrets, or API keys.
+
+**5. Start the development server**
 
 ```bash
 npm run dev
@@ -96,14 +128,13 @@ http://localhost:3000
 
 ## 🌐 Live Deployment
 
-The project is deployed on Vercel.
+The project is deployed using Vercel.
 
-**Live Website:**  
-https://project-seven-pearl-59.vercel.app/
+[Visit Live Application](https://project-seven-pearl-59.vercel.app/)
 
 ## 📂 Project Repository
 
-https://github.com/jubairhs115-cell/project
+[View Source Code on GitHub](https://github.com/jubairhs115-cell/project)
 
 ## 👨‍💻 Author
 
