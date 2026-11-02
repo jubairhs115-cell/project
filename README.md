@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # 📚 Library Management System
 
-## Getting Started
+A modern web-based Library Management System built to simplify library operations, organize books, and manage borrowing and returning activities.
 
-First, run the development server:
+<p align="center">
+  <a href="https://project-seven-pearl-59.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-blue?style=for-the-badge&logo=vercel" alt="Live Demo" />
+  </a>
+  <a href="https://github.com/jubairhs115-cell/project">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  </a>
+</p>
+
+---
+
+## 📖 About The Project
+
+The Library Management System is a web application designed to make library activities easier and more organized.
+
+It provides a digital platform for managing library resources and handling book-related operations through a modern user interface.
+
+The project is developed using Next.js, React, MongoDB, and other modern web technologies.
+
+## ✨ Technologies Used
+
+### 🎨 Frontend Development
+- Next.js
+- React
+- JavaScript (JSX)
+- Tailwind CSS
+- HeroUI
+
+### 🔐 Authentication
+- Better Auth
+
+### 🗄️ Database
+- MongoDB
+
+### 🛠️ Tools & Platforms
+- Git
+- GitHub
+- Visual Studio Code
+- Vercel
+
+## 🚀 Getting Started
+
+Follow these instructions to run the project locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/jubairhs115-cell/project.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd project
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Configure environment variables**
+
+Create a `.env.local` file in the root directory and add the environment variables required by the project.
+
+Do not commit your actual database credentials, authentication secrets, or API keys to GitHub.
+
+**5. Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**6. Open the application**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## 🌐 Live Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The project is deployed on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Live Website:**  
+https://project-seven-pearl-59.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Project Repository
 
-## Deploy on Vercel
+https://github.com/jubairhs115-cell/project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Jubair Hossain**
+
+Computer Science & Engineering Student | Aspiring Full-Stack Developer
+
+- GitHub: [@jubairhs115-cell](https://github.com/jubairhs115-cell)
+- Email: [jubairhs115@gmail.com](mailto:jubairhs115@gmail.com)
+
+---
+
+<p align="center">
+  ⭐ If you find this project interesting, consider giving it a star!
+</p>
