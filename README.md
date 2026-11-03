@@ -147,6 +147,30 @@ Computer Science & Engineering Student | Aspiring Full-Stack Developer
 
 ---
 
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](./screenshots/homepage.png)
+
+### 📚 Books Cart
+![Books Cart](./screenshots/booksCart.png)
+
+### 📖 My Books
+![My Books](./screenshots/mybook.png)
+
+### 📊 Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### 💰 Fines Management
+![Fines](./screenshots/fines.png)
+
+### 🔐 Sign In
+![Sign In](./screenshots/singin.png)
+
+### 📝 User Registration
+![Registration](./screenshots/register.png)
+
 <p align="center">
   ⭐ If you find this project interesting, consider giving it a star!
 </p>
